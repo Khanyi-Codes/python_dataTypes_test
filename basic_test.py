@@ -7,8 +7,10 @@ def int_division(x,y):
     - The result of the division (integer).
 
     """
-   ans = 7 / 2
-   return int(ans)
+    ans = 7 / 2
+
+    ans = x /y
+    return int(ans)
  
 
 
@@ -26,7 +28,7 @@ def float_multiplication(x,y):
  
 
 
-def combine_operations():
+def combine_operations(a,b):
     """
     Task:
     - Add the result of integer division and multiplication.
@@ -34,9 +36,9 @@ def combine_operations():
     Return:
     - The combined result (float).
     """
-    a = 4 / 2
-    b =  2 * 4
-    return sum(a,b)
+    int(a) = 4 / 2
+    int(b) =  2 * 4
+    return int(sum(a,b))
 
 
 def extract_word():
@@ -47,8 +49,12 @@ def extract_word():
     Return:
     - The extracted word ('awesome').
     """
+
     string = 'Python is awesome!'
+    
+    print(string[2])
     return  string[2]
+# extract_word()
     
 
 

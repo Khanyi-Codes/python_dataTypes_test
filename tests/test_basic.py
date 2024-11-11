@@ -12,13 +12,13 @@ from basic_test import (
 class TestBasicFunctions(unittest.TestCase):
 
     def test_int_division(self):
-        self.assertEqual(int_division(), 3)
+        self.assertEqual(int_division(7,2), 3)
 
     def test_float_multiplication(self):
-        self.assertEqual(float_multiplication(), 6.0)
+        self.assertEqual(float_multiplication(3.0,2), 6.0)
 
     def test_combine_operations(self):
-        self.assertEqual(combine_operations(), 6.0)
+        self.assertEqual(combine_operations(2,4), 6.0)
 
     def test_extract_word(self):
         self.assertEqual(extract_word(), "awesome")

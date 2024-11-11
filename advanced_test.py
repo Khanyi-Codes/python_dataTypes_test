@@ -6,8 +6,11 @@ def create_squares_of_evens():
     Return:
     - The list of squares of even numbers.
     """
-    pass
-
+    evens=[]
+    list =[]
+    evens= [ num for num in list if num%2 ==0 ]
+    print(evens)
+create_squares_of_evens()
 
 def convert_to_dict(students):
     """
